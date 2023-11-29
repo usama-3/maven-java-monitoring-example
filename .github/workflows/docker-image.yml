@@ -14,4 +14,4 @@ jobs:
         run: |
           docker build -t usama3650/maven-java-monitoring-example .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push usama3650/python_auth_4
+          docker push usama3650/maven-java-monitoring-example
